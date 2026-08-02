@@ -1,0 +1,69 @@
+<section class="page" id="page-processos">
+  <div class="card">
+    <div class="filter-row">
+      <div class="filter-search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <span>Buscar processo...</span>
+      </div>
+      <button class="filter-pill active">Todos</button>
+      <button class="filter-pill">Ativo</button>
+      <button class="filter-pill">Em conformidade</button>
+      <button class="filter-pill">Pendente</button>
+      <button class="filter-pill">Em análise</button>
+      <button class="btn-primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px;"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        Novo processo
+      </button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Processo</th><th>Descrição</th><th>Localização</th><th>Tipo</th><th>Status</th><th>Progresso</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="proc-id">2024.001</td>
+          <td class="proc-desc">Lavra a céu aberto</td>
+          <td>Pará — Carajás</td>
+          <td><span class="tag">LP</span></td>
+          <td><span class="status-pill" style="color:var(--amber);"><span class="status-dot" style="background:var(--amber);"></span>Ativo</span></td>
+          <td>70%</td>
+        </tr>
+        <tr>
+          <td class="proc-id">2024.002</td>
+          <td class="proc-desc">Unidade de beneficiamento</td>
+          <td>Pará — Marabá</td>
+          <td><span class="tag" style="background:var(--blue-bg); color:var(--blue);">LI</span></td>
+          <td><span class="status-pill" style="color:#d2691e;"><span class="status-dot" style="background:#d2691e;"></span>Pendente</span></td>
+          <td>45%</td>
+        </tr>
+        <tr>
+          <td class="proc-id">2024.003</td>
+          <td class="proc-desc">Pilha de disposição</td>
+          <td>Pará — Parauapebas</td>
+          <td><span class="tag" style="background:var(--blue-bg); color:var(--blue);">LO</span></td>
+          <td><span class="status-pill" style="color:var(--blue);"><span class="status-dot" style="background:var(--blue);"></span>Em análise</span></td>
+          <td>20%</td>
+        </tr>
+        <tr>
+          <td class="proc-id">2024.004</td>
+          <td class="proc-desc">Pesquisa mineral</td>
+          <td>Pará — Tucumã</td>
+          <td><span class="tag">LP</span></td>
+          <td><span class="status-pill" style="color:var(--green2);"><span class="status-dot" style="background:var(--green2);"></span>Em conformidade</span></td>
+          <td>90%</td>
+        </tr>
+        <tr>
+          <td class="proc-id">2024.005</td>
+          <td class="proc-desc">Barragem de rejeitos</td>
+          <td>Pará — Alta Floresta</td>
+          <td><span class="tag" style="background:var(--blue-bg); color:var(--blue);">LI</span></td>
+          <td><span class="status-pill" style="color:var(--amber);"><span class="status-dot" style="background:var(--amber);"></span>Ativo</span></td>
+          <td>35%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
