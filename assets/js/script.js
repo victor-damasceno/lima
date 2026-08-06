@@ -22,7 +22,6 @@ const PAGE_FILES = [
   'pages/checklists.html',
   'pages/pendencias.html',
   'pages/relatorios.html',
-  'pages/mapa.html',
   'pages/configuracoes.html'
 ];
 
@@ -104,7 +103,6 @@ const PAGE_TITLES = {
   checklists: 'Checklists',
   pendencias: 'Pendências',
   relatorios: 'Relatórios',
-  mapa: 'Mapa',
   configuracoes: 'Configurações'
 };
 
@@ -158,9 +156,6 @@ function attachDashboardEvents() {
   const buttons = dash.querySelectorAll('.btn-full');
   if (buttons[0]) buttons[0].addEventListener('click', () => navigateTo('processos'));
   if (buttons[1]) buttons[1].addEventListener('click', () => navigateTo('pendencias'));
-
-  const mapLink = dash.querySelector('.map-link');
-  if (mapLink) mapLink.addEventListener('click', () => navigateTo('mapa'));
 }
 
 // ---------- Processos ----------
